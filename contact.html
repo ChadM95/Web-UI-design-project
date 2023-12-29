@@ -61,6 +61,23 @@
         opacity: 0.7;
     }
 
+    input[type=text], select, textarea {
+        width: 50%;
+        padding: 12px;  
+        border: 1px solid #ccc;   
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px; 
+    }
+
+    input[type=submit] {
+        padding: 12px 20px;
+        border: 50px black;
+        border-radius: 4px;
+        cursor: pointer;
+        
+    }
+
 
     </style>
 </head>
@@ -90,17 +107,17 @@
 <div class="contactForm">
     <form>
   
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <label for="fname"></label>
+      <input type="text" id="fname" name="firstname" placeholder="Your first name..">
   
-      <label for="lname">Last Name</label>
+      <label for="lname"></label>
       <input type="text" id="lname" name="lastname" placeholder="Your last name..">
   
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
+      <label for="subject"></label>
+      <textarea id="subject" name="subject" placeholder="Subject.." ></textarea>
 
-      <label for="message">Subject</label>
-      <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+      <label for="message"></label>
+      <textarea id="message" name="message" placeholder="Your message.." style="height:200px"></textarea>
       
       <input type="submit" value="Submit">
   

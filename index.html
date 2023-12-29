@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Home</title>  
     <style>
+
     body {
         background-image: url("./images/Clouds.jpg");
         background-size: 100% 850px;
@@ -18,12 +20,23 @@
         font-size: 30px;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
+    
+    #title {
+        margin-bottom: 18px;
+        
+        }
 
-    .nav {
-        font-size: 25px;
-    }    
-
+    .navs {
+        font-size: 25px;   
+        padding:2px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
     .footer {
+        font-size: 18px;
         text-align: center;
         position: absolute; 
         bottom: 0;
@@ -34,6 +47,17 @@
         background-color: rgb(195, 195, 195);
     }
 
+    .fa {
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+    }
+
+    .fa:hover{
+        opacity: 0.7;
+    }
+
+
     </style>
 </head>
 
@@ -41,18 +65,24 @@
 
     <div class="header">     
 
-        <h1>Chad Malone Murphy</h1>
-        
-        <div class="nav">
-            <a href="./index.html">Home</a>
-            <a href="./projects.html">Projects</a>
-            <a href="./music.html">Music</a>
-            <a href="./pics.html">Gallery</a>
-            <a href="./contact.html">Contact</a>
-        </div>
+        <h1 id="title">Chad Malone Murphy</h1>   
+
+            <a class="navs" href="./index.html">Home</a>
+            <a class="navs" href="./projects.html">Projects</a>
+            <a class="navs" href="./music.html">Music</a>
+            <a class="navs" href="./pics.html">Gallery</a>
+            <a class="navs" href="./contact.html">Contact</a>
     </div>
 
-    <p>Bio here. Who I am..</p>
+    <p id="Bio">Bio here. Who I am..</p>
+    
+    
+    <span class="socials">
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-github"></a>
+        <a href="#" class="fa fa-facebook"></a>
+    </span>
 
 
     <div class="footer">

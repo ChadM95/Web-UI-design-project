@@ -19,7 +19,7 @@
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
     
-    #title {
+    .title {
         margin-bottom: 18px;     
         }
 
@@ -44,6 +44,12 @@
         background-color: rgb(195, 195, 195);
     }
 
+    .socials {
+        display:flex;
+        justify-content: flex-end;
+        margin-right: 50px;        
+    }
+
     .fa {
         font-size: 30px;
         width: 50px;
@@ -62,26 +68,31 @@
 
     <div class="header">     
 
-        <h1>Projects</h1>
-        
-        <div class="nav">
-            <a href="./index.html">Home</a>
-            <a href="./projects.html">Projects</a>
-            <a href="./music.html">Music</a>
-            <a href="./pics.html">Gallery</a>
-            <a href="./contact.html">Contact</a>
-        </div>
-    </div>
+        <h1 class="title">Projects</h1>
 
-    <p></p>
+        <a class="navs" href="./index.html">Home</a>
+        <a class="navs" href="./projects.html">Projects</a>
+        <a class="navs" href="./music.html">Music</a>
+        <a class="navs" href="./pics.html">Gallery</a>
+        <a class="navs" href="./contact.html">Contact</a>
+    </div> 
+
+<div class="socials">
+<span>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-github"></a>
+    <a href="#" class="fa fa-facebook"></a>
+</span>
+</div>
 
 
     <div class="footer">
-        <a href="./index.html">Home</a>
-        <a href="./projects.html">Projects</a>
-        <a href="./music.html">Music</a>
-        <a href="./pics.html">Gallery</a>
-        <a href="./contact.html">Contact</a>
+        <a class="footNav" href="./index.html">Home</a>
+        <a class="footNav" href="./projects.html">Projects</a>
+        <a class="footNav" href="./music.html">Music</a>
+        <a class="footNav" href="./pics.html">Gallery</a>
+        <a class="footNav" href="./contact.html">Contact</a>
     </div>
 
 </body>

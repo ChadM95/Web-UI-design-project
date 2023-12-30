@@ -70,15 +70,17 @@
         margin-bottom: 16px; 
     }
 
-    input[type=submit] {
-        padding: 12px 20px;
-        border: 50px black;
-        border-radius: 4px;
-        cursor: pointer;
-        
+    #message {
+        height:100px
+
     }
 
-
+    input[type=submit] {
+        border: 1px solid black;
+        padding: 5px;
+    }
+ 
+     
     </style>
 </head>
 
@@ -105,8 +107,9 @@
 </div>
 
 <div class="contactForm">
-    <form>
-  
+
+    <form action="mailto:chadm@live.ie">
+
       <label for="fname"></label>
       <input type="text" id="fname" name="firstname" placeholder="Your first name..">
   
@@ -117,15 +120,13 @@
       <textarea id="subject" name="subject" placeholder="Subject.." ></textarea>
 
       <label for="message"></label>
-      <textarea id="message" name="message" placeholder="Your message.." style="height:200px"></textarea>
+      <textarea id="message" name="message" placeholder="Your message.."></textarea>
       
-      
+      <input type="submit" value="Submit">
   
     </form>
   </div>
   
-
-
     <div class="footer">
         <a class="footNav" href="./index.html">Home</a>
         <a class="footNav" href="./projects.html">Projects</a>
@@ -133,6 +134,5 @@
         <a class="footNav" href="./pics.html">Gallery</a>
         <a class="footNav" href="./contact.html">Contact</a>
     </div>
-
 </body>
 </html>

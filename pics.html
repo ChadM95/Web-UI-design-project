@@ -6,7 +6,7 @@
     <title>Home</title>  
     <style>
         body {
-        background-image: url("./images/Clouds.jpg");
+        background-color: rgb(173, 203, 227);
         background-size: 100% 850px;
     }
 
@@ -61,6 +61,32 @@
         opacity: 0.7;
     }
 
+    .landscape {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;;
+    }
+
+    .portrait {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    h4 {
+        text-align:center; 
+        margin-top: 0%;
+    }
+
+    #cruit {
+        display: block;
+        width:auto;
+        height:842px; 
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     </style>
 </head>
@@ -78,18 +104,34 @@
         <a class="navs" href="./contact.html">Contact</a>
 </div> 
 
-<div class="socials">
-<span>
-    <a href="#" class="fa fa-linkedin"></a>
-    <a href="#" class="fa fa-instagram"></a>
-    <a href="#" class="fa fa-github"></a>
-    <a href="#" class="fa fa-facebook"></a>
-</span>
-</div>
+<h4>A collection of my photos and videos from various gigs and adventures...</h4>
+    <div id="media">
+        <img class="landscape" src="./images/BarnesmoreGap.jpg" alt="BarnesmoreGap">    
+        <img class="landscape" src="./images/Errigal.jpg" alt="Errigal">
+        <img class="portrait" src="./images/FowleysFalls.jpg" alt="FowleysFalls">
+        <img class="portrait" src="./images/Benwiskin.jpg" alt="Benwiskin">
+        <img id="cruit" src="./images/GregAndNicky.jpg" alt="CruitIsland">
+        <img class="portrait" src="./images/DerryJazz.jpg" alt="DerryJazz">
 
-    <p>..</p>
+        <video style="display: inline-block;margin-left: auto;margin-right: auto;width: 25%;" controls>
+        <source src="./images/JazzHoleSun.mp4" type="video/mp4">
+        </video>
 
+        <video style="display:inline-block;height:auto;width:800px;" controls> 
+        <source src="./images/Grunt.mp4" type="video/mp4">
+        </video>
 
+        <video style="display: inline-block;margin-left: auto;margin-right: auto;width: 25%;" controls>
+        <source src="./images/BigFridge.mp4" type="video/mp4">    
+        </video>
+
+        <video style="display: inline-block;margin-left: auto;margin-right: auto;width: 25%;" controls>
+        <source src="./images/Caravan.mp4" type="video/mp4">    
+        </video>
+
+    </div>
+
+<!--
     <div class="footer">
         <a class="footNav" href="./index.html">Home</a>
         <a class="footNav" href="./projects.html">Projects</a>
@@ -97,6 +139,7 @@
         <a class="footNav" href="./pics.html">Gallery</a>
         <a class="footNav" href="./contact.html">Contact</a>
     </div>
+-->
 
 </body>
 </html>

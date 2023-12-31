@@ -3,3 +3,11 @@ function func1() {
     alert("Hello, " + name);
 
 }
+
+function funcShow() {
+    document.getElementById('lightBulb').style.visibility='visible';
+}
+
+function funcHide() {
+    document.getElementById('lightBulb').style.visibility='hidden';
+}

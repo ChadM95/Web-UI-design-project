@@ -62,7 +62,7 @@
         opacity: 0.7;
     }
 
-    #b1 {
+    button {
         font-size: medium;
         background-color: rgb(210, 207, 212);
         border: 2px solid black;
@@ -94,10 +94,18 @@
             <a class="fa fa-facebook" href="https://www.facebook.com/chad.murphy.7509"></a>
         </span>
     </div>
-        
-    <div id="p1">
-        <h3>Hello Program</h3>
-        <span>>>>>>>></span><button type="button" onclick="func1()" id="b1">Start</button>
+    
+    <div id="programs">
+        <div id="p1">
+            <h3>Hello Program</h3>
+            <span>>>>>>>></span><button type="button" onclick="func1()">Start</button>
+        </div>
+
+        <div id="p2">
+            <h3 style="display:inline">Turn on the light!</h3>
+            <button type="button" onclick='funcShow()'>On</button><button type="button" onclick="funcHide()">Off</button>
+            <img id="lightBulb" style="width:auto; height:100px; visibility: hidden;" src="./images/file-light-bulb-yellow-icon-svg-2.png">
+        </div>
     </div>
 
 

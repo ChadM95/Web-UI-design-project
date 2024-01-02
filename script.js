@@ -28,7 +28,7 @@ $(document).ready(function() {
         $('#about').hide();
     })
 
-    $('#panel').hide();
+    $('#panel1').hide();
 
     $("#click1").click(function(){
         $("#panel1").slideToggle();
@@ -40,6 +40,11 @@ $(document).ready(function() {
         $('#panel2').fadeToggle();
     })
 
+    $('#panel3').hide();
+
+    $('#click3').click(function() {
+        $('#panel3').fadeToggle();
+    })
 
 })
 

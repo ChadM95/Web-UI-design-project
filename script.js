@@ -31,7 +31,13 @@ $(document).ready(function() {
     $('#panel').hide();
 
     $("#click1").click(function(){
-        $("#panel").slideToggle();
+        $("#panel1").slideToggle();
+    })
+
+    $('#panel2').hide();
+
+    $('#click2').click(function() {
+        $('#panel2').fadeToggle();
     })
 
 

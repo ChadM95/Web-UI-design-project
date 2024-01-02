@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./script.js"></script>
     <title>Gallery</title>  
     <style>
         body {
@@ -88,6 +90,12 @@
         margin-right: auto;
     }
 
+    #description {
+        position: absolute;
+        left:35%;
+        right:35%;
+    }
+
     </style>
 </head>
 
@@ -104,6 +112,11 @@
         <a class="navs" href="./contact.html">Contact</a>
 </div> 
 
+<div id="description">
+    <button id="click2">Click here</button>
+    <div id="panel2">Here are some of my photos from various adventures...</div>
+</div>
+
 <div class="socials">
     <span>
         <a href="#" class="fa fa-linkedin"></a>
@@ -114,7 +127,7 @@
     </div>
 
     <div id="media">
-        <img class="landscape" src="./media/BarnesmoreGap.jpg" alt="BarnesmoreGap">    
+        <img style="margin-top: 20px;" class="landscape" src="./media/BarnesmoreGap.jpg" alt="BarnesmoreGap">    
         <img class="landscape" src="./media/Errigal.jpg" alt="Errigal">
         <img class="portrait" src="./media/FowleysFalls.jpg" alt="FowleysFalls">
         <img class="portrait" src="./media/Benwiskin.jpg" alt="Benwiskin">

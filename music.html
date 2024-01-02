@@ -35,7 +35,7 @@
     
     .footer {
         font-size: 18px;
-        text-align: center;
+        text-align: center;;
         bottom: 0;
         left: 0;
         right: 0;
@@ -61,7 +61,16 @@
         opacity: 0.7;
     }
 
-    video {
+    .portraitVids {
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+        width: 28%;
+    }
+
+    #vids {
         text-align: center;
     }
 
@@ -90,23 +99,23 @@
 </span>
 </div>
 
-    
-<video controls>
-    <video controls> 
+    <video style="display:block;margin: 0 auto;height:auto;width:800px; justify-content: center;" controls> 
     <source src="./media/Grunt.mp4" type="video/mp4">
     </video>
+    
+    <div id="vids">
+        <video class="portraitVids" controls>
+        <source src="./media/JazzHoleSun.mp4" type="video/mp4">
+        </video>
 
-    <source src="./media/JazzHoleSun.mp4" type="video/mp4">
-    </video>
+        <video class="portraitVids" controls>
+        <source src="./media/BigFridge.mp4" type="video/mp4">    
+        </video>
 
-    <video controls>
-    <source src="./media/BigFridge.mp4" type="video/mp4">    
-    </video>
-
-    <video controls>
-    <source src="./media/Caravan.mp4" type="video/mp4">    
-    </video>
-
+        <video class="portraitVids" controls>
+        <source src="./media/Caravan.mp4" type="video/mp4">    
+        </video>
+    </div>
 
     <div class="footer">
         <a class="footNav" href="./index.html">Home</a>

@@ -25,6 +25,10 @@ $(document).ready(function() {
     $('#hide').click(function(){
         $('#about').hide();
     })
-    
+
+    $('#panel').hide();
+    $("#click1").click(function(){
+        $("#panel").slideDown();
+    })
 })
-})
+}) 

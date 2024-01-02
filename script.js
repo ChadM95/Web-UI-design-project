@@ -17,6 +17,9 @@ function funcHide() {
 //Jquery
 
 $(document).ready(function() {
+
+    $('#about').hide();
+
     $('#show').click(function(){
         $('#about').show();
     $('#hide').click(function(){

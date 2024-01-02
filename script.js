@@ -22,13 +22,18 @@ $(document).ready(function() {
 
     $('#show').click(function(){
         $('#about').show();
+    })
+
     $('#hide').click(function(){
         $('#about').hide();
     })
 
     $('#panel').hide();
+
     $("#click1").click(function(){
-        $("#panel").slideDown();
+        $("#panel").slideToggle();
     })
+
+
 })
-}) 
+
